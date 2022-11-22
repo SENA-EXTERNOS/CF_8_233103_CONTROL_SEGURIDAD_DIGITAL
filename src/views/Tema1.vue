@@ -29,129 +29,127 @@
 
       p Exponer información en el puesto de trabajo, bien sea por descuido o dejando notas pegadas en el escritorio con información sensible, como datos de acceso a plataformas, bancos y claves. A continuación se describe el comportamiento de unos personajes, ¿Con cuál de ellos se identifica?
 
-    .row.justify-content-around.align-items-center.mt-5
-      .col-lg-10.col-xs-12
-        .tarjeta.tarjeta--gris.p-4
-          LineaTiempoC.color-secundario(text-small)
-            .row(titulo="El despistado")
+ 
+    .tarjeta.tarjeta--gris.p-4
+      LineaTiempoC.color-secundario(text-small)
+        .row.justify-content-around.align-items-center(titulo="El despistado")
+          .col-md-4
+            figure
+              img(src='@/assets/curso/temas/tema1/img3.svg', alt='Texto que describa la imagen')
 
-              .col-md-4
-                figure
-                  img(src='@/assets/curso/temas/tema1/img3.svg', alt='Texto que describa la imagen')
+          .col-md-8.mb-4.mb-md-0
+            p #[b Su lema es:] "déjeme que yo entiendo mi desorden", algunas de las características de este personaje son:
 
-              .col-md-8.mb-4.mb-md-0
-                p #[b Su lema es:] "déjeme que yo entiendo mi desorden", algunas de las características de este personaje son:
+            ul.lista-ul--color
+              li 
+                i.fas.fa-check
+                | Todo está en su escritorio, notas, datos de acceso, etc. A la vista de todo el mundo.
 
-                ul.lista-ul--color
-                  li 
-                    i.fas.fa-check
-                    | Todo está en su escritorio, notas, datos de acceso, etc. A la vista de todo el mundo.
+              li 
+                i.fas.fa-check
+                | Tiene una foto de su hijo cuando era bebé, pero este ya es todo un profesional.
 
-                  li 
-                    i.fas.fa-check
-                    | Tiene una foto de su hijo cuando era bebé, pero este ya es todo un profesional.
+              li 
+                i.fas.fa-check
+                | Los últimos recibos de servicios públicos cancelados.
 
-                  li 
-                    i.fas.fa-check
-                    | Los últimos recibos de servicios públicos cancelados.
+              li 
+                i.fas.fa-check
+                | Dos ediciones de la revista Dinero.
+        
+            p.text-blue #[b El nivel de riesgo de este personaje es ‘muy alto’.]
 
-                  li 
-                    i.fas.fa-check
-                    | Dos ediciones de la revista Dinero.
-            
-                p.text-blue #[b El nivel de riesgo de este personaje es ‘muy alto’.]
+        .row.justify-content-around.align-items-center(titulo="El subordinado")
 
-            .row(titulo="El subordinado")
+          .col-md-4
+            figure
+              img(src='@/assets/curso/temas/tema1/img4.svg', alt='Texto que describa la imagen')
 
-              .col-md-4
-                figure
-                  img(src='@/assets/curso/temas/tema1/img4.svg', alt='Texto que describa la imagen')
+          .col-md-8.mb-4.mb-md-0
+            p #[b Se caracteriza por:]
 
-              .col-md-8.mb-4.mb-md-0
-                p #[b Se caracteriza por:]
+            ul.lista-ul--color
+              li 
+                i.fas.fa-check
+                p.mb-0 Ordenar la información en carpetas, pero no guardarlas.
 
-                ul.lista-ul--color
-                  li 
-                    i.fas.fa-check
-                    p.mb-0 Ordenar la información en carpetas, pero no guardarlas.
+              li 
+                i.fas.fa-check
+                p.mb-0  Usar nombres para las carpetas como; ‘Info nueva’, ‘Info personal’, ‘Info confidencial’, ‘#[i Top secret]’.
 
-                  li 
-                    i.fas.fa-check
-                    p.mb-0  Usar nombres para las carpetas como; ‘Info nueva’, ‘Info personal’, ‘Info confidencial’, ‘#[i Top secret]’.
+              li 
+                i.fas.fa-check
+                p.mb-0 Su puesto de trabajo está despejado pero guarda un paquete de documentos en un lugar visible con el nombre “confidencial”.
 
-                  li 
-                    i.fas.fa-check
-                    p.mb-0 Su puesto de trabajo está despejado pero guarda un paquete de documentos en un lugar visible con el nombre “confidencial”.
+              li 
+                i.fas.fa-check
+                p.mb-0 Cierra las gavetas del archivador con llave, pero guarda las llaves en el mug de los lapiceros.
 
-                  li 
-                    i.fas.fa-check
-                    p.mb-0 Cierra las gavetas del archivador con llave, pero guarda las llaves en el mug de los lapiceros.
+            p.text-blue #[b El nivel de riesgo de este personaje es ‘medio’.]     
 
-                p.text-blue #[b El nivel de riesgo de este personaje es ‘medio’.]     
+        .row.justify-content-around.align-items-center(titulo="El segurísimo")
 
-            .row(titulo="El segurísimo")
+          .col-md-4
+            figure
+              img(src='@/assets/curso/temas/tema1/img5.svg', alt='Texto que describa la imagen')
 
-              .col-md-4
-                figure
-                  img(src='@/assets/curso/temas/tema1/img5.svg', alt='Texto que describa la imagen')
+          .col-md-8.mb-4.mb-md-0
+            p #[b Sus características son:]
 
-              .col-md-8.mb-4.mb-md-0
-                p #[b Sus características son:]
+            ul.lista-ul--color
+              li 
+                i.fas.fa-check
+                p.mb-0 Todo está protegido y bajo llave, hasta el teclado.
 
-                ul.lista-ul--color
-                  li 
-                    i.fas.fa-check
-                    p.mb-0 Todo está protegido y bajo llave, hasta el teclado.
+              li 
+                i.fas.fa-check
+                p.mb-0 Toda su información está clasificada como ‘confidencial’, hasta las notas escritas.
 
-                  li 
-                    i.fas.fa-check
-                    p.mb-0 Toda su información está clasificada como ‘confidencial’, hasta las notas escritas.
+              li 
+                i.fas.fa-check
+                p.mb-0 Su escritorio es pulcro, no se ve ni siquiera el pequeño residuo de un tajalápiz.
 
-                  li 
-                    i.fas.fa-check
-                    p.mb-0 Su escritorio es pulcro, no se ve ni siquiera el pequeño residuo de un tajalápiz.
+              li 
+                i.fas.fa-check
+                p.mb-0 Tiene un #[i software] que le permite cambiar sus contraseñas constantemente.
 
-                  li 
-                    i.fas.fa-check
-                    p.mb-0 Tiene un #[i software] que le permite cambiar sus contraseñas constantemente.
+              li 
+                i.fas.fa-check
+                p.mb-0  Los fines de semana va a la oficina a revisar su puesto de trabajo.
 
-                  li 
-                    i.fas.fa-check
-                    p.mb-0  Los fines de semana va a la oficina a revisar su puesto de trabajo.
+            p.text-blue #[b El nivel de riesgo de este personaje es ‘bajo’.]
 
-                p.text-blue #[b El nivel de riesgo de este personaje es ‘bajo’.]
+        .row.justify-content-around.align-items-center(titulo="El ejemplar")
 
-            .row(titulo="El ejemplar")
+          .col-md-4
+            figure
+              img(src='@/assets/curso/temas/tema1/img6.svg', alt='Texto que describa la imagen')
 
-              .col-md-4
-                figure
-                  img(src='@/assets/curso/temas/tema1/img6.svg', alt='Texto que describa la imagen')
+          .col-md-8.mb-4.mb-md-0
+            p #[b Sus características son:]
 
-              .col-md-8.mb-4.mb-md-0
-                p #[b Sus características son:]
+            ul.lista-ul--color
+              li 
+                i.fas.fa-check
+                p.mb-0 Ordena, clasifica y nombra de forma adecuada su información.
 
-                ul.lista-ul--color
-                  li 
-                    i.fas.fa-check
-                    p.mb-0 Ordena, clasifica y nombra de forma adecuada su información.
+              li 
+                i.fas.fa-check
+                p.mb-0 Tiene presente lo que se puede guardar en el escritorio y lo que no.
 
-                  li 
-                    i.fas.fa-check
-                    p.mb-0 Tiene presente lo que se puede guardar en el escritorio y lo que no.
+              li 
+                i.fas.fa-check
+                p.mb-0 Deja las gavetas de su archivador bajo llave, la cual lleva consigo siempre.
 
-                  li 
-                    i.fas.fa-check
-                    p.mb-0 Deja las gavetas de su archivador bajo llave, la cual lleva consigo siempre.
+              li 
+                i.fas.fa-check
+                p.mb-0  Nunca deja el PC desatendido y desbloqueado. Usa el comando #[i Windows] + L y su usuario tiene un #[i password] con seguridad fuerte.
 
-                  li 
-                    i.fas.fa-check
-                    p.mb-0  Nunca deja el PC desatendido y desbloqueado. Usa el comando #[i Windows] + L y su usuario tiene un #[i password] con seguridad fuerte.
+              li 
+                i.fas.fa-check
+                p.mb-0  Socializa y ayuda a implementar la cultura de Seguridad de la Información.
 
-                  li 
-                    i.fas.fa-check
-                    p.mb-0  Socializa y ayuda a implementar la cultura de Seguridad de la Información.
-
-                p.text-blue #[b El nivel de riesgo de este personaje es ‘muy bajo’.] 
+            p.text-blue #[b El nivel de riesgo de este personaje es ‘muy bajo’.] 
 
     .row.mt-5
       p #[b Situación 3.]
