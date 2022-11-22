@@ -2,13 +2,24 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 54%
+    right: 62%
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    //animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 0%
+    right: 25%
+  &-3
+    animation: myAnim 15s ease 0s infinite normal forwards
+    position: absolute
+    top: 0%
+    right: 23%
+    width: 60%
+  &-4
+    animation: myAnim2 4s ease 0s infinite alternate-reverse forwards
+    top: 42%
+    right: 58%
+    width: 23%
 
 
 @keyframes float1
@@ -17,3 +28,285 @@
 
   100%
     transform: translateY(0px)
+
+@keyframes myAnim 
+	0%,
+	50%,
+	100% 
+		opacity: 1
+	
+	25%,
+	75% 
+		opacity: 0
+
+@keyframes myAnim2
+	0% 
+		opacity: 0
+		transform: translateX(-50px)
+
+	100% 
+		opacity: 1
+		transform: translateX(0)
+
+	
+
+
+//Estilos adicionales
+
+.background-full
+  border: solid 2px #D3D3D3
+  border-radius: 22px
+
+.bloque-texto-g__img 
+    width: 35%
+
+.bloque-texto-g__texto 
+    width: 75%
+
+.bloque-texto-f
+  position: relative
+  display: flex
+  justify-content: flex-end
+  &__img
+    width: 35%
+    position: absolute
+    top: 0
+    left: 65%
+    bottom: 0
+    background-position: center
+    background-size: cover
+  &__texto
+    position: relative
+    width: 75%
+    background-color: rgba( $white, .95 )
+    *
+      display: inline
+
+  @media (max-width: $bp-max-md)
+    padding-top: 40% !important
+    &__img
+      width: 100%
+      height: 50%
+    &__texto
+      width: 100%
+
+  @media (max-width: $bp-max-xs)
+    padding-top: 200px !important
+    &__img
+      height: 250px
+
+  &.color-primario
+    background-color: $color-primario
+  &.color-secundario
+    background-color: $color-secundario
+  &.color-acento-contenido
+    background-color: $color-acento-contenido
+  &.color-acento-botones
+    background-color: $color-acento-botones
+
+.clr-paleYellow
+  background-color: #E8E8E8
+
+.margin-image
+  margin-left: -4%
+
+///// Custom acordeon A tipo A -------------------------------------- 
+.tarjeta.acordeonA
+  background-color: #DADEEC
+
+.acordion__accion__btn--a
+  background-color: #EEAC3A !important
+
+.acordion__activo
+  background-color: #0D2380 !important
+
+.tarjeta--azul 
+    background-color: #DADEEC
+
+.tabs-c.color-primario .tabs-c__tab--active 
+    border-bottom-color: #0D2380 !important
+
+.tabs-c.color-primario .tabs-c__tab--active:before 
+    border-top-color: #0D2380 !important
+
+.cajonAmarillo
+  position: relative
+  &:before
+    content: ''
+    display: block
+    width: 25px
+    height: 10px
+    position: absolute
+    top: 0
+    left: 0
+
+  &.color-primario
+    background-color: #FFF6DB
+    &:before
+      background-color: #FDB74D
+  &.color-secundario
+    background-color: lighten($color-secundario, 20%)
+    &:before
+      background-color: $color-secundario
+  &.color-acento-contenido
+    background-color: lighten($color-acento-contenido, 30%)
+    &:before
+      background-color: $color-acento-contenido
+  &.color-acento-botones
+    background-color: lighten($color-acento-botones, 35%)
+    &:before
+      background-color: $color-acento-botones
+
+.bgr-tarjeta-tema1:before
+    background: $color-acento-botones
+    
+.bgr-tarjeta-tema1
+    background: $color-acento-contenido
+
+.img-infografica__item__dot, .img-infografica-b__item__dot 
+    width: 40px
+    height: 40px
+    margin-left: -10px
+
+.img-infografica__item__numero, .img-infografica-b__item__numero 
+    left: 68%
+
+.tabs-a__tab 
+  background-color: #E8E8E8
+
+.lista-ul--color li > i:first-of-type 
+    color: #FF6B00
+
+///// Linea tiempo D --------------------------------------
+.linea-tiempo-d__item__content.tarjeta.tarjeta--gris, .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+  background-color: #E6E6E6
+
+.linea-tiempo-d__item.row.linea-tiempo-d__item--selected
+  .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+    background-color: #F6F6F6
+
+.linea-tiempo-c__header__item--active .linea-tiempo-c__header__item__year 
+    color: #FC502D
+
+.tarjetab
+    min-height: 412px
+
+.color-tarjeta-slider
+    background-color: #AEB3CB
+    background-size: 100% 100%
+
+@media screen and (max-width: 500px)
+  .slyder-f__btn 
+    display: flex
+    align-items: center
+    justify-content: center
+    cursor: pointer
+
+@media screen and ( max-width: 500px )
+  .slyder__action 
+    display: inline-flex
+    z-index: 1
+
+@media screen and ( max-width: 500px )
+  .columna-movil
+    margin-left: -23px
+    width: 85%
+    
+.tarjetab
+  border-radius: 20px
+
+  &--container
+    & > .tarjeta
+      border-radius: 0
+      &:first-child
+        border-top-left-radius: 20px
+        border-bottom-left-radius: 20px
+      &:last-child
+        border-top-right-radius: 20px
+        border-bottom-right-radius: 20px
+
+  &--blanca
+    background-color: $white
+
+  &--gris
+    background-color: $color-sistema-h
+
+  &--azul
+    background-color: $color-sistema-e
+
+  &--boton
+    border-radius: 20px
+    background-color: $color-sistema-h
+    cursor: pointer
+    transition: background-color 0.3s ease-in-out
+
+    &.color-primario
+      &:active, &:focus, &:hover
+        background-color: $color-primario
+        *
+          color: textColor($color-primario)
+    &.color-secundario
+      &:active, &:focus, &:hover
+        background-color: $color-secundario
+        *
+          color: textColor($color-secundario)
+    &.color-acento-contenido
+      &:active, &:focus, &:hover
+        background-color: $color-acento-contenido
+        *
+          color: textColor($color-acento-contenido)
+    &.color-acento-botones
+      &:active, &:focus, &:hover
+        background-color: $color-acento-botones
+        *
+          color: textColor($color-acento-botones)
+
+  &--tabla
+    background-color: $color-sistema-e
+    &:nth-child(even)
+      background-color: $color-sistema-g
+
+  &.color-primario
+    background-color: $color-primario
+    *
+      color: textColor($color-primario)
+    &--borde
+      background-color: lighten($color-primario, 50%)
+      color: textColor(lighten($color-primario, 50%))
+      border: solid 4px $color-primario
+  &.color-secundario
+    background-color: $color-secundario
+    *
+      color: textColor($color-secundario)
+    &--borde
+      background-color: lighten($color-secundario, 50%)
+      color: textColor(lighten($color-secundario, 50%))
+      border: solid 4px $color-secundario
+  &.color-acento-contenido
+    background-color: $color-acento-contenido
+    *
+      color: textColor($color-acento-contenido)
+    &--borde
+      background-color: lighten($color-acento-contenido, 50%)
+      color: textColor(lighten($color-acento-contenido, 50%))
+      border: solid 4px $color-acento-contenido
+  &.color-acento-botones
+    background-color: $color-acento-botones
+    *
+      color: textColor($color-acento-botones)
+    &--borde
+      background-color: lighten($color-acento-botones, 50%)
+      color: textColor(lighten($color-acento-botones, 50%))
+      border: solid 4px $color-acento-botones
+
+.slyder-a__bullets__item--active 
+    background-color: #FC502D
+    border-color: #FC502D
+    opacity: 1
+
+.tarjeta--gris 
+    background-color: #E4E6F1
+
+.text-blue
+  color: #0D2380 !important
+
