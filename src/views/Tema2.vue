@@ -98,74 +98,76 @@
     .titulo-segundo.color-acento-contenido.mt-5(data-aos="zoom-in-left")
       h2 2.1 Plataformas de seguridad
 
-    .row
+    .row.justify-content-center.align-items-center.mb-5.mt-5  
       p Muchas compañías reconocidas a nivel global han centrado su objetivo comercial en crear plataformas y herramientas de ciberseguridad. Un caso particular que se puede considerar es la compañía DELL, que integra en su portafolio de productos y servicios las siguientes plataformas y herramientas:
 
-    .row.justify-content-center.align-items-center.mb-5.mt-5  
-      .col-lg-10.col-xs-12
+      .col-lg-10
+        p A continuación, encontrará algunas de las soluciones de seguridad destacadas para las principales amenazas actuales, tomadas desde la página de la empresa DELL.
+
         SlyderF(columnas="col-lg-6 col-xl-4")
-          .tarjetab.color-tarjeta-slider.p-4.columna-movil
+
+          .tarjeta.background-tarjeta.p-4.height-tarjeta
             .row.justify-content-center.mb-3
-              .col-8
+              .col-6
                 img(src='@/assets/curso/temas/tema2/img6.svg' alt='AvatarTop')
-            p.text-center.text-blue #[b Servicios de resistencia del negocio]
-            p.text-center.text-small moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
+            h3.text-center.text-blue Servicios de resistencia del negocio
+            p.text-center Permite alinear las necesidades del negocio con las tecnologías, los procesos y el personal de TI para crear un programa de resiliencia del negocio integral. (DELL, 2022).
 
-          .tarjetab.color-tarjeta-slider.p-4.columna-movil
+          .tarjeta.background-tarjeta.p-4.height-tarjeta
             .row.justify-content-center.mb-3
-              .col-8
+              .col-6
                 img(src='@/assets/curso/temas/tema2/img7.svg' alt='AvatarTop')
-            p.text-center.text-blue #[b #[i Ransomware Defender] para DELL EMC #[i PowerScale]]
-            p.text-center.text-small Es una solución de protección cibernética integral para detectar patrones de acceso a datos inusuales, aislar los datos con espacio de aire y recuperar los datos de archivos y objetos. (DELL, 2022).
+            h3.text-center.text-blue #[i.text-blue Ransomware Defender] para DELL EMC #[i.text-blue PowerScale]
+            p.text-center Es una solución de protección cibernética integral para detectar patrones de acceso a datos inusuales, aislar los datos con espacio de aire y recuperar los datos de archivos y objetos. (DELL, 2022).
 
-          .tarjetab.color-tarjeta-slider.p-4.columna-movil
+          .tarjeta.background-tarjeta.p-4.height-tarjeta
             .row.justify-content-center.mb-3
-              .col-8
+              .col-6
                 img(src='@/assets/curso/temas/tema2/img8.svg' alt='AvatarTop')
-            p.text-center.text-blue #[b DELL #[i SafeData]]
-            p.text-center.text-small Conjunto de aplicaciones integradas en la solución #[i Dell Trusted Devices] que proporciona cifrado a nivel de disco y archivo, infraestructura de escalamiento de red SASE y persistencia de datos a prueba de manipulaciones en entornos de múltiples nubes. (DELL, 2022).
+            h3.text-center.text-blue DELL #[i.text-blue SafeData]
+            p.text-center Conjunto de aplicaciones integradas en la solución Dell Trusted Devices que proporciona cifrado a nivel de disco y archivo, infraestructura de escalamiento de red SASE y persistencia de datos a prueba de manipulaciones en entornos de múltiples nubes. (DELL, 2022).
 
-          .tarjetab.color-tarjeta-slider.p-4.columna-movil
+          .tarjeta.background-tarjeta.p-4.height-tarjeta
             .row.justify-content-center.mb-3
-              .col-8
+              .col-6
                 img(src='@/assets/curso/temas/tema2/img9.svg' alt='AvatarTop')
-            p.text-center.text-blue #[b Servicios de seguridad de terminales de DELL]
-            p.text-center.text-small Serie de servicios integrales que ayuda a identificar riesgos, implementar soluciones y prevenir amenazas futuras con confianza. (DELL, 2022).
+            h3.text-center.text-blue Servicios de seguridad de terminales de DELL
+            p.text-center Serie de servicios integrales que ayuda a identificar riesgos, implementar soluciones y prevenir amenazas futuras con confianza. (DELL, 2022).
 
-          .tarjetab.color-tarjeta-slider.p-4.columna-movil
+          .tarjeta.background-tarjeta.p-4.height-tarjeta
             .row.justify-content-center.mb-3
-              .col-8
+              .col-6
                 img(src='@/assets/curso/temas/tema2/img10.svg' alt='AvatarTop')
-            p.text-center.text-blue #[b Plataforma de virtualización de red #[i VMware] NSX]
-            p.text-center.text-small Plataforma de virtualización de red de pila completa que cuenta con segmentación de red y microsegmentación para la carga de trabajo individual. (DELL, 2022).
+            h3.text-center.text-blue Plataforma de virtualización de red #[i.text-blue VMware] NSX
+            p.text-center Plataforma de virtualización de red de pila completa que cuenta con segmentación de red y microsegmentación para la carga de trabajo individual. (DELL, 2022).
 
-          .tarjetab.color-tarjeta-slider.p-4.columna-movil
+          .tarjeta.background-tarjeta.p-4.height-tarjeta
             .row.justify-content-center.mb-3
-              .col-8
+              .col-6
                 img(src='@/assets/curso/temas/tema2/img11.svg' alt='AvatarTop')
-            p.text-center.text-blue #[b DELL #[i SafeGuard and Response]]
-            p.text-center.text-small Permite prevenir amenazas desconocidas y responde en forma rápida y eficiente a los ataques ocultos en terminales, redes y nubes, con la ayuda de #[i VMware Carbon Black Cloud y Secureworks.] (DELL, 2022).
+            h3.text-center.text-blue DELL #[i.text-blue SafeGuard and Response]
+            p.text-center Permite prevenir amenazas desconocidas y responde en forma rápida y eficiente a los ataques ocultos en terminales, redes y nubes, con la ayuda de VMware Carbon Black Cloud y Secureworks. (DELL, 2022).
 
-          .tarjetab.color-tarjeta-slider.p-4.columna-movil
+          .tarjeta.background-tarjeta.p-4.height-tarjeta
             .row.justify-content-center.mb-3
-              .col-8
+              .col-6
                 img(src='@/assets/curso/temas/tema2/img12.svg' alt='AvatarTop')
-            p.text-center.text-blue #[b Arquitectura resistente cibernética de #[i PowerEdge]]
-            p.text-center.text-small Logra sobrepasar continuamente los límites del diseño de servidores reforzado para detectar los ataques cibernéticos y protegerse y recuperarse de ellos. (DELL, 2022).
+            h3.text-center.text-blue Arquitectura resistente cibernética de #[i.text-blue PowerEdge]
+            p.text-center Logra sobrepasar continuamente los límites del diseño de servidores reforzado para detectar los ataques cibernéticos y protegerse y recuperarse de ellos. (DELL, 2022).
 
-          .tarjetab.color-tarjeta-slider.p-4.columna-movil
+          .tarjeta.background-tarjeta.p-4.height-tarjeta
             .row.justify-content-center.mb-3
-              .col-8
+              .col-6
                 img(src='@/assets/curso/temas/tema2/img13.svg' alt='AvatarTop')
-            p.text-center.text-blue #[b DELL #[i SafeBIOS] y #[i SafeID]]
-            p.text-center.text-small Mitiga el riesgo de manipulación del BIOS con la detección de ataques de #[i firmware] integrada; utiliza el exclusivo chip de seguridad dedicado de DELL para mejorar la autenticación multifactor. (DELL, 2022).
-        
-          .tarjetab.color-tarjeta-slider.p-4.columna-movil
+            h3.text-center.text-blue DELL #[i.text-blue SafeBIOS] y #[i.text-blue SafeID]
+            p.text-center Mitiga el riesgo de manipulación del BIOS con la detección de ataques de firmware integrada; utiliza el exclusivo chip de seguridad dedicado de DELL para mejorar la autenticación multifactor. (DELL, 2022).
+
+          .tarjeta.background-tarjeta.p-4.height-tarjeta
             .row.justify-content-center.mb-3
-              .col-8
+              .col-6
                 img(src='@/assets/curso/temas/tema2/img14.svg' alt='AvatarTop')
-            p.text-center.text-blue #[b DELL #[i Trusted Devices]]
-            p.text-center.text-small Dado que el 70 % de las infracciones se originan en el terminal, un ecosistema seguro comienza con Dell #[i Trusted Devices]. (DELL, 2022).
+            h3.text-center.text-blue DELL #[i.text-blue Trusted Devices]
+            p.text-center Dado que el 70 % de las infracciones se originan en el terminal, un ecosistema seguro comienza con #[i Dell Trusted Devices]. (DELL, 2022).
 
     .row.justify-content-center
       .col-10
