@@ -169,7 +169,7 @@
             h3.text-center.text-blue DELL #[i.text-blue Trusted Devices]
             p.text-center Dado que el 70 % de las infracciones se originan en el terminal, un ecosistema seguro comienza con #[i Dell Trusted Devices]. (DELL, 2022).
 
-    .row.justify-content-center
+    .row.justify-content-center.mt-5
       .col-10
         p Si desea profundizar sobre la herramienta Ransomware Defender para Dell EMC PowerScale, remítase al manual adjunto como Anexo 1.
 
@@ -236,7 +236,7 @@
       SlyderA(tipo="b")
         .row.justify-content-around.align-items-center
           .col-md-6.mb-4.mb-md-0
-            p #[b Notificar al primer punto de contacto]
+            p #[b.text-blue Notificar al primer punto de contacto]
 
             p Un usuario, tercero o contratista que sospeche sobre la materialización de un incidente de seguridad deberá notificarlo al primer punto de contacto definido por la entidad (Ej.: Soporte de primer nivel). Esto se puede hacer a través de cualquier canal de comunicación (telefónico, correo, aplicativo, etc.). Es importante resaltar que debe existir un formato que el usuario debe diligenciar con la mayor cantidad posible de información relacionada.
 
@@ -246,7 +246,7 @@
 
         .row.justify-content-around.align-items-center
           .col-md-6.mb-4.mb-md-0
-            p #[b Identificación del tipo de incidente]
+            p #[b.text-blue Identificación del tipo de incidente]
 
             p El primer punto de contacto identificará el tipo de incidente (de acuerdo a la tabla de clasificación que realiza la entidad), analizará si corresponde a un incidente de seguridad de la información o si está relacionado con requerimientos propios de la infraestructura de TI. En caso de ser catalogado como un incidente de seguridad, se notificará a la persona encargada de la atención, o a quien haga sus veces, para que tome las decisiones correspondientes. 
 
@@ -267,7 +267,7 @@
 
         .row.justify-content-around.align-items-center
           .col-md-6.mb-4.mb-md-0
-            p #[b Punto de contacto clave]
+            p #[b.text-blue Punto de contacto clave]
 
             p El punto de contacto clave dentro de la gestión de incidentes es la persona encargada de la atención de estos, quien coordinará y asignará las actividades con las partes interesadas. Estos últimos solicitarán el apoyo a los involucrados en el proceso, con el fin de realizar la correcta ejecución de actividades que den solución al incidente. La persona encargada tendrá la potestad para decidir sobre las acciones que se deban ejecutar ante la presencia de una situación de este tipo y notificará a las altas directivas de la entidad.
 
