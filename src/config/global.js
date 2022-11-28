@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Ciberseguridad - Impacto de eventos e incidentes',
     descripcionCurso:
-      'En este material se introduce al aprendiz en la validación del impacto de incidentes de seguridad con base en criterios técnicos y herramientas de monitoreo, de acuerdo con el modelo del negocio. Para ello, se hace necesario revisar, clasificar, validar y notificar el estado del incidente de acuerdo a una política de gestión de eventos eincidentes.',
+      'En este material se introduce al aprendiz en la validación del impacto de incidentes de seguridad con base en criterios técnicos y herramientas de monitoreo, de acuerdo con el modelo del negocio. Para ello, se hace necesario revisar, clasificar, validar y notificar el estado del incidente de acuerdo a una política de gestión de eventos e incidentes.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -224,7 +224,7 @@ export default {
     {
       termino: 'Servicios reactivos',
       significado:
-        'son los que se inician cuando el incidente ya ocurrió, es decir, un equipo de oficina comprometido o infectado, intrusos en registros de información, malware disperso por toda la red, software vulnerado o eventos identificados sin mecanismo previos de protección.',
+        'son los que se inician cuando el incidente ya ocurrió, es decir, un equipo de oficina comprometido o infectado, intrusos en registros de información, malware disperso por toda la red, <em>software</em> vulnerado o eventos identificados sin mecanismo previos de protección.',
     },
   ],
   referencias: [

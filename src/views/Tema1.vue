@@ -83,7 +83,7 @@
 
               li 
                 i.fas.fa-check
-                p.mb-0 Cierra las gavetas del archivador con llave, pero guarda las llaves en el mug de los lapiceros.
+                p.mb-0 Cierra las gavetas del archivador con llave, pero guarda las llaves en el #[i mug] de los lapiceros.
 
             p.text-blue #[b El nivel de riesgo de este personaje es ‘medio’.]     
 
@@ -207,7 +207,7 @@
           .tarjeta.clr-paleYellow.p-4(titulo="Definición")
             p Los CSIRT son un equipo que tiene la función de prestar los servicios que permiten prevenir y dar respuesta a incidentes de seguridad de la información; se encargan generalmente de cubrir un área específica en una entidad pública o privada.
 
-          .tarjeta.clr-paleYellow.p-4(titulo="Resoluciones")
+          .tarjeta.clr-paleYellow.p-4(titulo="Objetivos")
             p Los CSIRTS pueden ser internos o externos cubriendo áreas para el manejo de incidentes en los centros de coordinación y análisis, los equipos de vendedores y proveedores. Estas acciones le permiten ser el punto central para el informe de problemas, cuyos objetivos se basan en:
 
             ul.lista-ul--color
@@ -244,12 +244,11 @@
                 p.mb-0 Mantener informada de la gestión y respuesta a todos los miembros involucrados e interesados.
               
           .tarjeta.clr-paleYellow.p-4(titulo="Servicios de un CSIRT")
-            p Los CSIRTS pueden ser internos o externos cubriendo áreas para el manejo de incidentes en los centros de coordinación y análisis, los equipos de vendedores y proveedores. Estas acciones le permiten ser el punto central para el informe de problemas, cuyos objetivos se basan en:
 
             ul.lista-ul--color
               li 
                 i.fas.fa-check
-                p.mb-0 #[b Servicios reactivos:] son los que se inician cuando el incidente ya ocurrió, es decir, un equipo de oficina comprometido o infectado, intrusos en registros de información, malware disperso por toda la red, software vulnerado o eventos identificados sin mecanismos previos de protección.
+                p.mb-0 #[b Servicios reactivos:] son los que se inician cuando el incidente ya ocurrió, es decir, un equipo de oficina comprometido o infectado, intrusos en registros de información, #[i malware] disperso por toda la red, #[i software] vulnerado o eventos identificados sin mecanismos previos de protección.
 
               li 
                 i.fas.fa-check
@@ -486,7 +485,7 @@
                 td El CSIRT existe como un Punto de Contacto (POC) para coordinación y resolución de incidentes. Tiene sus reglas y regulaciones para notificar a las autoridades relevantes. 
               tr
                 td Básico
-                td Igual a 1, añadiendo un proceso para manejar nuevas amenazas. Se utiliza un sistema de tickets para manejar los incidentes reportados y se proveen avisos para la organización.
+                td Igual a 1, añadiendo un proceso para manejar nuevas amenazas. Se utiliza un sistema de #[i tickets] para manejar los incidentes reportados y se proveen avisos para la organización.
               tr
                 td Actívo
                 td Igual a 2, añadiendo herramientas de análisis de amenazas y procedimientos para la clasificación y el manejo de incidentes. 

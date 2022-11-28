@@ -80,8 +80,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img5.svg')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 Cuando se usa el correo corporativo para iniciar sesión o registrarse en alguna red social, o simplemente para publicar el nombre o logo de la empresa para la cual se trabaja, o fotografías donde quede expuesta la imagen corporativa; se debe evitar realizar bromas y comentarios que pueden llegar a afectar el perfil personal o profesional.
-
+            p.mb-0 El monitoreo de la seguridad se identifica como una herramienta de prevención de SI, y a su vez, forma parte de su gestión. Para ello, los sistemas clasifican como indiferentes las alarmas que generan la detección de un incidente, sea este autorizado o no. Sin embargo, la creación del equipo CSIRT o CERT hace que este proceso sea más eficiente, detectando cambios o comportamientos poco usuales en las actividades, generando ‘alertas’ ante sospechas y recopilando la información necesaria para ser analizada, tomando acciones preventivas.
     .row.mt-5
       p Para reconocer algunas de las acciones que se realizan en el monitoreo de eventos, se le invita a ver el siguiente video.
 
@@ -125,7 +124,7 @@
               .col-6
                 img(src='@/assets/curso/temas/tema2/img8.svg' alt='AvatarTop')
             h3.text-center.text-blue DELL #[i.text-blue SafeData]
-            p.text-center Conjunto de aplicaciones integradas en la solución Dell Trusted Devices que proporciona cifrado a nivel de disco y archivo, infraestructura de escalamiento de red SASE y persistencia de datos a prueba de manipulaciones en entornos de múltiples nubes. (DELL, 2022).
+            p.text-center Conjunto de aplicaciones integradas en la solución Dell #[i Trusted Devices] que proporciona cifrado a nivel de disco y archivo, infraestructura de escalamiento de red SASE y persistencia de datos a prueba de manipulaciones en entornos de múltiples nubes. (DELL, 2022).
 
           .tarjeta.background-tarjeta.p-4.height-tarjeta
             .row.justify-content-center.mb-3
@@ -146,7 +145,7 @@
               .col-6
                 img(src='@/assets/curso/temas/tema2/img11.svg' alt='AvatarTop')
             h3.text-center.text-blue DELL #[i.text-blue SafeGuard and Response]
-            p.text-center Permite prevenir amenazas desconocidas y responde en forma rápida y eficiente a los ataques ocultos en terminales, redes y nubes, con la ayuda de VMware Carbon Black Cloud y Secureworks. (DELL, 2022).
+            p.text-center Permite prevenir amenazas desconocidas y responde en forma rápida y eficiente a los ataques ocultos en terminales, redes y nubes, con la ayuda de #[i VMware Carbon Black Cloud y Secureworks]. (DELL, 2022).
 
           .tarjeta.background-tarjeta.p-4.height-tarjeta
             .row.justify-content-center.mb-3
@@ -160,7 +159,7 @@
               .col-6
                 img(src='@/assets/curso/temas/tema2/img13.svg' alt='AvatarTop')
             h3.text-center.text-blue DELL #[i.text-blue SafeBIOS] y #[i.text-blue SafeID]
-            p.text-center Mitiga el riesgo de manipulación del BIOS con la detección de ataques de firmware integrada; utiliza el exclusivo chip de seguridad dedicado de DELL para mejorar la autenticación multifactor. (DELL, 2022).
+            p.text-center Mitiga el riesgo de manipulación del BIOS con la detección de ataques de #[i firmware] integrada; utiliza el exclusivo chip de seguridad dedicado de DELL para mejorar la autenticación multifactor. (DELL, 2022).
 
           .tarjeta.background-tarjeta.p-4.height-tarjeta
             .row.justify-content-center.mb-3
@@ -187,7 +186,7 @@
                     span Descargar
                     i.fas.fa-file-download
 
-        p Para conocer un poco más sobre la plataforma de virtualización de red VMware NSX, ver el Anexo 2, que contiene el manual de uso.
+        p Para conocer un poco más sobre la plataforma de virtualización de red #[i VMware] NSX, ver el Anexo 2, que contiene el manual de uso.
 
         .tarjeta.color-secundario.p-3.mb-5.mt-3
           .row.justify-content-around.align-items-center
