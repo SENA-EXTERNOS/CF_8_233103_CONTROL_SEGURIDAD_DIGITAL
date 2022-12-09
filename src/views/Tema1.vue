@@ -403,8 +403,8 @@
           p(data-aos="fade-down").mb-0 #[i Flujograma de gestión de incidentes de SI]
         figure
           img(src='@/assets/curso/temas/tema1/img17.svg', alt='Texto que describa la imagen')
-          figcaption.mt-3.text-center Nota: Elaboración propia del experto con la información tomada de Heide der Van, M. (2020) Estableciendo un CSIRT. 
-
+          figcaption.mt-3.text-center Fuente:  Instituto para la Economía Social -IPES (2017) Gestión de incidentes de seguridad de la información.  p. 7. 
+          
 
     .row.justify-content-around.align-items-center.mt-5
       .col-lg-9
