@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="135" height="136" viewBox="0 0 135 136">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_85347" data-name="Rectángulo 85347" width="135" height="136" transform="translate(386 3130)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Enmascarar_grupo_141" data-name="Enmascarar grupo 141" transform="translate(-386 -3130)" clip-path="url(#clip-path)">
+    <g id="Capa_2" data-name="Capa 2" transform="translate(404.354 3130)">
+      <g id="Layer_1" data-name="Layer 1">
+        <path id="Trazado_199501" data-name="Trazado 199501" d="M53.4,15.049A17.973,17.973,0,0,1,71.354,33V63.1H86.4V33a33.086,33.086,0,0,0-33-33H49.1V15.049Z" fill="#312c2f"/>
+        <path id="Trazado_199502" data-name="Trazado 199502" d="M26.959,33.043a17.951,17.951,0,0,1,17.93-17.994h4.3V0h-4.3A33.065,33.065,0,0,0,11.867,33.043v30.1H26.916Z" fill="#574d55"/>
+        <path id="Trazado_199503" data-name="Trazado 199503" d="M98.291,63.055H49.146V136H98.291Z" fill="#d1d2d3"/>
+        <path id="Trazado_199504" data-name="Trazado 199504" d="M26.959,63.055H0V136H49.146V63.055Z" fill="#d1d2d3"/>
+        <rect id="Rectángulo_85350" data-name="Rectángulo 85350" width="15.092" height="6.256" transform="translate(11.867 56.799)" fill="#312c2f"/>
+        <path id="Trazado_199505" data-name="Trazado 199505" d="M58.928,90.165a9.782,9.782,0,1,0-14.942,8.277l-3.655,20.574H58.046L54.391,98.442A9.739,9.739,0,0,0,58.928,90.165Z" fill="#312c2f"/>
+      </g>
+    </g>
+  </g>
+</svg>
