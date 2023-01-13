@@ -409,7 +409,7 @@
           h5 Figura 2
           p(data-aos="fade-down").mb-0 #[i Ilustración del ciclo de Deming (Ciclo PHVA)]
         figure
-          img(src='@/assets/curso/temas/tema1/img19.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/tema1/img19-.svg', alt='Texto que describa la imagen')
           figcaption.mt-3.text-center Nota. Tomado de Heide Der Von, M. (2020)
 
 
