@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Ciberseguridad - Impacto de eventos e incidentes',
     descripcionCurso:
-      'En este material se introduce al aprendiz en la validación del impacto de incidentes de seguridad con base en criterios técnicos y herramientas de monitoreo, de acuerdo con el modelo del negocio. Para ello, se hace necesario revisar, clasificar, validar y notificar el estado del incidente de acuerdo a una política de gestión de eventos e incidentes.',
+      'Este componente formativo aborda aspectos claves de la validación del impacto de incidentes de seguridad, con base en criterios técnicos y herramientas de monitoreo, de acuerdo con el modelo del negocio. Se hace entonces necesario revisar, clasificar, validar y notificar, el estado del incidente, de acuerdo con una política de gestión de eventos e incidentes.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -44,32 +44,6 @@ export default {
         numero: '1',
         titulo: 'Validación de incidentes',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'CSIRT',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'CERT',
-            hash: 't_1_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Centro de gestión de incidentes',
-            hash: 't_1_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'Ciclo de gestión de incidentes',
-            hash: 't_1_4',
-          },
-        ],
       },
 
       {
@@ -78,20 +52,6 @@ export default {
         numero: '2',
         titulo: 'Monitoreo de eventos',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Plataformas de seguridad',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Notificación de respuestas',
-            hash: 't_2_2',
-          },
-        ],
       },
     ],
     subMenu: [
@@ -136,35 +96,33 @@ export default {
   },
   complementario: [
     {
-      tema: 'CCENT/CCNA ICND1 100 - 105 : <em>official cert guide</em>',
+      tema: 'Validación de Incidentes',
       referencia:
-        'Wendell, O. (2016) <em>CCENT/CCNA ICND1 100 - 105: official cert guide</em>. Cisco Systems.',
+        'Wendell, O. (2016) CCENT/CCNA ICND1 100 - 105: official cert guide. Cisco Systems.',
       tipo: 'Libro',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000106585',
     },
     {
-      tema: 'Estrategia de ciberseguridad para la sociedad digital.',
+      tema: 'Validación de incidentes',
       referencia:
-        'Núñez Jarrosay, L. (2021) Estrategia de ciberseguridad para la sociedad digital. <em>Telemática</em>. 20 (1). P. 47-53',
+        'Núñez Jarrosay, L. (2021) Estrategia de ciberseguridad para la sociedad digital. Telemática 20(1), p. 47-53.',
       tipo: 'Artículo',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1i756fj/TN_cdi_doaj_primary_oai_doaj_org_article_f492659b81964e40aa0cfa17afaf7b25',
     },
     {
-      tema:
-        'Propuesta de infraestructura técnica de seguridad para un equipo de respuesta ante incidentes de seguridad (CSIRT).',
+      tema: 'Monitoreo de eventos',
       referencia:
-        'Ramírez Luna H. E. & Mejía Miranda, J. (2015) Propuesta de infraestructura técnica de seguridad para un equipo de respuesta ante incidentes de seguridad (CSIRT). <em>ReCIBE. Revista electrónica de Computación, Informática, Biomédica y Electrónica</em> p. VI',
+        'Ramírez Luna H. E. & Mejía Miranda, J. (2015). Propuesta de infraestructura técnica de seguridad para un equipo de respuesta ante incidentes de seguridad (CSIRT). ReCIBE. Revista electrónica de Computación, Informática, Biomédica y Electrónica p. VI.',
       tipo: 'Artículo',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1i756fj/TN_cdi_doaj_primary_oai_doaj_org_article_2fb23d76e9204433a27a187b95886220',
     },
     {
-      tema:
-        '<em>Specialized CSIRT for Incident Response Management in Smart Grids</em>',
+      tema: 'Monitoreo de eventos',
       referencia:
-        'Martins, R.J, Días Knob, L. A. Germano Da Silva, E. Araujo Wickboldt, J., Schaeffer-Filho, A., & Zambenedetti Granville, L. (2018) Specialized CSIRT for Incident Response Management in Smart Grids. <em>Journal of Network and Systems Management</em> 27 (1) p. 269-285.',
+        'Martins, R.J, Días Knob, L. A. Germano Da Silva, E. Araujo Wickboldt, J., Schaeffer-Filho, A., & Zambenedetti Granville, L. (2018) Specialized CSIRT for Incident Response Management in Smart Grids. Journal of Network and Systems Management 27(1), p. 269-285. ',
       tipo: 'Artículo',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1i756fj/TN_cdi_proquest_journals_2030542969',

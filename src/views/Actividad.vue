@@ -11,13 +11,15 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Arrastrar y soltar
-        p.mb-4 Llegó el momento de validar los aprendizajes adquiridos con el estudio del componente formativo. Por favor relacionar cada término con la definición, arrastrando y soltando donde corresponda.
+        p.mb-3 Esta actividad le permitirá determinar el grado de apropiación de los contenidos del componente formativo.
+        p.mb-5 De acuerdo con la definición planteada en la columna izquierda, arrastre cada término al lugar que considere correcto de la columna derecha.
+ 
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
               p.fw-bold.mb-0 Arrastrar y soltar
             .col-auto
-              a.boton.boton--b(:href="obtenerLink('/actividades/index.html')" target="_blank")
+              a.boton.boton--b(:href="obtenerLink('/actividades/story.html')" target="_blank")
                 span Realizar
                 i.fas.fa-puzzle-piece
                 

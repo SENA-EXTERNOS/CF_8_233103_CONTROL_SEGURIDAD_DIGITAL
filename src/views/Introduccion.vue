@@ -14,13 +14,10 @@
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/temas/introduccion/img1.svg', alt='Texto que describa la imagen')  
 
-      .col-lg-7
-        p(data-aos="fade-down").mt-3 Con un mundo cada vez más conectado a través de la Internet, los ataques, incidentes o eventos que afectan la seguridad de las instituciones son muy comunes, por lo que se ha hecho necesario verificar el impacto que pueden tener; para ello se requiere de una estructura y metodología organizacional que permita gestionar respuestas a través de ciclos de gestión.
-
-        p(data-aos="fade-down").mt-3 En este componente formativo se describe la validación del impacto de incidentes de ciberseguridad enfocando el estudio en los Equipos de Respuesta ante Emergencias Informáticas (CERT), y los Equipos de Respuesta a Incidentes de Seguridad (CSIRT), además de realizar un acercamiento a los centros de gestión de respuesta a incidentes, las plataformas de monitoreo de eventos de seguridad y finalmente los ciclos de gestión (preparación, detección, análisis, notificación, documentación y gestión del conocimiento).
-
-        p(data-aos="fade-down").mt-3 Para iniciar con el desarrollo temático se le invita a observar el siguiente video introductorio, en el que se detalla la temática a desarrollar y su importancia en los procesos empresariales asociados a la seguridad de la información.
-        
+      .col-lg-7(data-aos="fade-down")
+        p Apreciado aprendiz, bienvenido a este componente formativo, donde se describirá el proceso de validación del impacto de incidentes de ciberseguridad, enfocando el estudio en los Equipos de Respuesta ante Emergencias Informáticas (CERT), y los Equipos de Respuesta a Incidentes de Seguridad (CSIRT). Además, el componente favorece el reconocimiento y comprensión de los centros de gestión de respuesta a incidentes, las plataformas de monitoreo de eventos de seguridad y, finalmente, los ciclos de gestión (preparación, detección, análisis, notificación, documentación y gestión del conocimiento).
+        p Con un mundo cada vez más conectado a través de la Internet, los ataques, incidentes o eventos que afectan la seguridad de las instituciones son muy comunes, por lo que se ha hecho necesario verificar el impacto que pueden tener; para hacerlo, se requiere de una estructura y metodología organizacional que permita gestionar respuestas a través de ciclos de gestión.
+        p En el siguiente video conocerá, de forma general, la temática que se estudiará a lo largo del componente formativo.
 
     .row.justify-content-center.align-items-center.mb-5.mt-5          
       .col-lg-12(data-aos="fade-left")     

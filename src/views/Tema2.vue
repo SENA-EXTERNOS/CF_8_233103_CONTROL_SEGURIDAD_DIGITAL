@@ -8,7 +8,9 @@
       h1 Monitoreo de eventos
 
     .row
-      p Es fundamental en la gestión de seguridad digital de las organizaciones que se rastreen los incidentes de seguridad digital, a continuación se describe cómo hacerlo: 
+      p El monitoreo de eventos e incidentes y del proceso general de seguridad, es clave en toda organización. Consiste en la instalación y aplicación de mecanismos para detectar y registrar, permanentemente, situaciones que estarían afectando la integridad de los datos, activos, procesos, información, etc.
+      p Es fundamental en la gestión de seguridad digital de las organizaciones, que se rastreen los incidentes de seguridad digital; a continuación, se especifican algunos aspectos claves de este proceso: 
+ 
     
 
     TabsC.color-primario
@@ -82,7 +84,7 @@
           .bloque-texto-g__texto.p-4
             p.mb-0 El monitoreo de la seguridad se identifica como una herramienta de prevención de SI, y a su vez, forma parte de su gestión. Para ello, los sistemas clasifican como indiferentes las alarmas que generan la detección de un incidente, sea este autorizado o no. Sin embargo, la creación del equipo CSIRT o CERT hace que este proceso sea más eficiente, detectando cambios o comportamientos poco usuales en las actividades, generando ‘alertas’ ante sospechas y recopilando la información necesaria para ser analizada, tomando acciones preventivas.
     .row.mt-5
-      p Para reconocer algunas de las acciones que se realizan en el monitoreo de eventos, se le invita a ver el siguiente video.
+      p Reconozca y asimile algunas de las acciones más importantes del monitoreo de eventos; visualice con suma atención, el siguiente video:
 
     .row.justify-content-center.align-items-center.mb-5.mt-5          
       .col-lg-12(data-aos="fade-left")     
@@ -90,18 +92,15 @@
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)            
                
-    separador
-
-    #t_2_1
-
-    .titulo-segundo.color-acento-contenido.mt-5(data-aos="zoom-in-left")
-      h2 2.1 Plataformas de seguridad
+    h3 Plataformas de seguridad
 
     .row.justify-content-center.align-items-center.mb-5.mt-5  
-      p Muchas compañías reconocidas a nivel global han centrado su objetivo comercial en crear plataformas y herramientas de ciberseguridad. Un caso particular que se puede considerar es la compañía DELL, que integra en su portafolio de productos y servicios las siguientes plataformas y herramientas:
+      p Las plataformas de seguridad ofrecen a las organizaciones, una forma de integrar la visibilidad, los procesos de análisis y los diferentes controles de seguridad, mediante capas y fuentes de datos, favoreciendo, de esta manera, la protección y el rendimiento.
+      p Muchas compañías reconocidas a nivel global, han centrado su objetivo comercial en crear plataformas y herramientas de ciberseguridad. Un caso particular que se puede considerar, es la compañía DELL, que integra en su portafolio de productos y servicios, varias plataformas y herramientas.
+
 
       .col-lg-10
-        p A continuación, encontrará algunas de las soluciones de seguridad destacadas para las principales amenazas actuales, tomadas desde la página de la empresa DELL.
+        p A continuación, encontrará algunas de las soluciones de seguridad destacadas para las principales amenazas actuales ((DELL, s.f.):
 
         SlyderF(columnas="col-lg-6 col-xl-4")
 
@@ -170,7 +169,7 @@
 
     .row.justify-content-center.mt-5
       .col-10
-        p Si desea profundizar sobre la herramienta Ransomware Defender para Dell EMC PowerScale, remítase al manual adjunto como Anexo 1.
+        p Profundice en la herramienta Ransomware Defender para Dell EMC PowerScale; remítase al manual adjunto como Anexo 1.
 
         .tarjeta.color-secundario.p-3.mb-5.mt-3
           .row.justify-content-around.align-items-center
@@ -180,7 +179,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h3.mb-1.text-white Anexo 1
-                  p.text-small.text-white #[i MANUAL RANSOMWARE DEFENDER PARA DELL EMC POWERSCALE.]
+                  p.text-small.text-white Manual Ransomware Defender para Dell EMC PowerScale.
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")
                     span Descargar
@@ -196,27 +195,22 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h3.mb-1.text-white Anexo 2
-                  p.text-small.text-white #[i MANUAL VMWARE NSX.]
+                  p.text-small.text-white Manual VMware NSX.
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_2.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 
-    .row.justify-content-around.align-items-center.mt-5
+    .row.justify-content-around.align-items-center.my-5
       .col-lg-10
         .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img16.svg')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 Para la Unión Europea, la violación en la seguridad de la información se origina cuando los datos quedan expuestos a incidentes de seguridad y repercute en la vulneración de la integridad, transparencia, disponibilidad y confidencialidad de los datos. Al ocurrir esto se ponen en riesgo los derechos y la privacidad de los dueños de la información, por lo que se debe notificar a las autoridades competentes en un plazo no mayor a 72 horas después de haber ocurrido el evento (Comisión Europea, s.f.).  Dentro del siguiente tema se describen los aspectos asociados a la notificación de respuestas.  
+            p.mb-0 Para la Unión Europea, la violación en la seguridad de la información se origina cuando los datos quedan expuestos a incidentes de seguridad y repercute en la vulneración de la integridad, transparencia, disponibilidad y confidencialidad de los datos. Al ocurrir esto se ponen en riesgo los derechos y la privacidad de los dueños de la información, por lo que se debe notificar a las autoridades competentes en un plazo no mayor a 72 horas después de haber ocurrido el evento (Comisión Europea, s.f.).  
 
-    separador
-
-    #t_2_2
-
-    .titulo-segundo.color-acento-contenido.mt-5(data-aos="zoom-in-left")
-      h2 2.2 Notificación de respuestas
+    h3 Notificación de respuestas
 
     .row.justify-content-around.align-items-center.mt-5
       .col-lg-12
@@ -225,11 +219,13 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img17.svg')})`}"
           )
           .bloque-texto-f__texto.p-4
-            p.mb-0 La vulneración de la seguridad de la información implica un alto riesgo para los dueños de los datos, por lo tanto, deberán ser notificados de que esta ha sido violada y las medidas que ha tomado el responsable del tratamiento de los datos.
-            <br><br>
-            La notificación de respuesta de incidentes genera acciones de forma sistemática, con el objetivo de disminuir la ocurrencia y lograr una rápida recuperación, minimizando el daño causado a los servicios de la organización.
+            p La vulneración de la seguridad de la información implica un alto riesgo para los dueños de los datos, por lo tanto, deberán ser notificados de que esta ha sido violada y las medidas que ha tomado el responsable del tratamiento de los datos.
+            <br>
+            <br>
+            p La notificación de respuesta de incidentes genera acciones de forma sistemática, con el objetivo de disminuir la ocurrencia y lograr una rápida recuperación, minimizando el daño causado a los servicios de la organización. 
 
-      p.mt-5 A continuación, se describe la notificación de respuestas a incidentes extraída del Manual de Seguridad y Privacidad de la Información elaborado por el Ministerio de las Tecnologías de la Información y la Comunicaciones –MINTIC (2016). 
+
+      p.mt-5 A continuación, se describe la notificación de respuestas a incidentes extraída del Manual de Seguridad y Privacidad de la Información, elaborado por el Ministerio de las Tecnologías de la Información y la Comunicaciones –MINTIC (2016): 
 
     .tarjeta.tarjeta--azul.p-4
       SlyderA(tipo="b")
@@ -237,7 +233,7 @@
           .col-md-6.mb-4.mb-md-0
             p #[b.text-blue Notificar al primer punto de contacto]
 
-            p Un usuario, tercero o contratista que sospeche sobre la materialización de un incidente de seguridad deberá notificarlo al primer punto de contacto definido por la entidad (Ej.: Soporte de primer nivel). Esto se puede hacer a través de cualquier canal de comunicación (telefónico, correo, aplicativo, etc.). Es importante resaltar que debe existir un formato que el usuario debe diligenciar con la mayor cantidad posible de información relacionada.
+            p Un usuario, tercero o contratista, que sospeche la materialización de un incidente de seguridad, deberá notificarlo al primer punto de contacto definido por la entidad (ejemplo, soporte de primer nivel). Esto se puede hacer a través de cualquier canal de comunicación (telefónico, correo, aplicativo, etc.). Es importante resaltar que debe existir un formato que el usuario debe diligenciar con la mayor cantidad posible de información relacionada.
 
           .col-md-6
             figure
@@ -255,7 +251,7 @@
 
         .row.justify-content-around.align-items-center
           .col-md-6.mb-4.mb-md-0
-
+            p #[b.text-blue Persona o equipo encargado de la atención]
             p Esta será la encargada de realizar el seguimiento hasta su cierre definitivo. Si el incidente de seguridad es identificado por otra línea diferente a un usuario de la entidad, a través de los elementos de detección o administradores de TI, este es notificado directamente al responsable, quien tomará las acciones necesarias. 
 
             p Se informará al primer punto de contacto sobre la presentación de un incidente de seguridad para que realice la documentación respectiva y esté atento al seguimiento y desarrollo de este.
@@ -273,7 +269,8 @@
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema2/img21.svg', alt='Texto que describa la imagen')
-
+              
+    p.my-5 Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
         
 
 </template>

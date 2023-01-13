@@ -7,15 +7,16 @@
         span 1
       h1 Validación de incidentes
 
-    .row.justify-content-around.align-items-center.mt-5.background-full
+    .row.justify-content-around.align-items-center.my-5.background-full
       .col-lg-4
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/temas/tema1/img1.svg', alt='Texto que describa la imagen').imagen-full-tema-1.margin-image
-      .col-lg-8
-        p(data-aos="fade-down") En el día a día se pueden cometer incidentes de seguridad inadvertidamente, por esto es necesario describir algunas situaciones, a manera de ejemplo, para no caer en estos errores, bien sea por desconocimiento, descuido o imprudencia.
-
-    .row.justify-content-around.align-items-center.mt-5
-      p #[b Situación 1.]
+      .col-lg-8(data-aos="fade-down")
+        p En el día a día, existe la posibilidad inminente de tener incidentes de seguridad, inadvertidos; es un hecho que, pese a la planeación y ejecución efectiva de procesos, los incidentes tienden a acontecer en cualquier momento.
+        p Seguidamente, se describen algunas situaciones, a manera de ejemplos orientadores, que favorecen no caer en estos errores, en los cuales se incurre, generalmente, por desconocimiento, descuido o imprudencia.
+    
+    h3 Situación 1. Informalidad peligrosa
+    .row.justify-content-around.align-items-center.mb-5
       .col-lg-10
         .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
@@ -25,7 +26,7 @@
             p.mb-0 Cuando se usa el correo corporativo para iniciar sesión o registrarse en alguna red social, o simplemente para publicar el nombre o logo de la empresa para la cual se trabaja, o fotografías donde quede expuesta la imagen corporativa; se debe evitar realizar bromas y comentarios que pueden llegar a afectar el perfil personal o profesional.
 
     .row.mt-5
-      p #[b Situación 2.]   
+      h3 Situación 2. Descuidos e información sensible  
 
       p Exponer información en el puesto de trabajo, bien sea por descuido o dejando notas pegadas en el escritorio con información sensible, como datos de acceso a plataformas, bancos y claves. A continuación se describe el comportamiento de unos personajes, ¿Con cuál de ellos se identifica?
 
@@ -55,7 +56,7 @@
 
               li 
                 i.fas.fa-check
-                | Dos ediciones de la revista Dinero.
+                | Dos ediciones de la revista en tendencia.
         
             p.text-blue #[b El nivel de riesgo de este personaje es ‘muy alto’.]
 
@@ -152,7 +153,7 @@
             p.text-blue #[b El nivel de riesgo de este personaje es ‘muy bajo’.] 
 
     .row.mt-5
-      p #[b Situación 3.]
+      h3 Situación 3. Divulgación indiscriminada de correo
 
     .row.justify-content-around.align-items-center.mt-5
       .col-lg-10
@@ -164,7 +165,7 @@
             p.mb-0 Al reenviar correos masivos, como chistes o cadenas, y no usar la opción ‘CCO’ sino el espacio ‘para’, se está divulgando información sensible, como las cuentas de correo electrónico de terceros sin el consentimiento de los propietarios.
 
     .row.mt-5
-      p #[b Situación 4.]   
+      h3 Situación 4. Descargas irreflexivas de información   
 
     .row.justify-content-around.align-items-center.mt-5
       .col-lg-10
@@ -184,14 +185,10 @@
           .bloque-texto-g__texto.p-4
             p.mb-0 Existen muchas situaciones del diario vivir en las que se pueden estar cometiendo infracciones de manera involuntaria, poniendo en riesgo la seguridad digital. Es importante reflexionar y autoevaluarse para saber qué tipo de personaje se es y qué situación se está realizando, con el fin de corregir estos hábitos lo más pronto posible, evitando así cualquier inconveniente a futuro.
 
-      p.mt-5 Para validar los incidentes es necesario contar con equipos capacitados en seguridad digital, como los siguientes:
+      p.my-5 Para validar los incidentes es necesario contar con equipos capacitados en seguridad digital, como los siguientes:
 
-    separador
 
-    #t_1_1
-
-    .titulo-segundo.color-acento-contenido.mt-5(data-aos="zoom-in-left")
-      h2 1.1 CSIRT
+    h3 Equipos CSIRT
 
     .row.justify-content-around.align-items-center.mt-5
       .col-lg-10.order-2.order-lg-1
@@ -199,13 +196,13 @@
           .tarjeta.clr-paleYellow.p-4(titulo="Introducción")
             .row.justify-content-around.align-items-center
               .col-lg-8
-                p Con la masificación de las TIC, también aumentaron los ataques e incidentes de Seguridad de la Información como, por ejemplo, manipulación de redes de datos, alteración de cajeros electrónicos y transferencias bancarias, generando así pérdidas por billones de pesos. Por tal motivo, el Congreso de la República ha promulgado la Ley 1273 de 2009. Desde entonces, y como buenas prácticas para prevenir y minimizar la exposición a los ataques nacen los CSIRT.
+                p Con la masificación de las TIC, también aumentaron los ataques e incidentes en la seguridad de la información como, por ejemplo, manipulación de redes de datos, alteración de cajeros electrónicos y transferencias bancarias, generando, de esta manera, pérdidas por billones de pesos. Por este motivo, el Congreso de la República ha promulgado la Ley 1273 del 2009. Desde entonces, y como buenas prácticas para prevenir y minimizar la exposición a los ataques, nacen los CSIRT.
               .col-lg-4
                 figure
                   img(src='@/assets/curso/temas/tema1/img10.svg', alt='Texto que describa la imagen')
 
           .tarjeta.clr-paleYellow.p-4(titulo="Definición")
-            p Los CSIRT son un equipo que tiene la función de prestar los servicios que permiten prevenir y dar respuesta a incidentes de seguridad de la información; se encargan generalmente de cubrir un área específica en una entidad pública o privada.
+            p Los CSIRT son equipos que tienen la función de prestar los servicios que permiten prevenir y dar respuesta a incidentes de seguridad de la información; se encargan, generalmente, de cubrir un área específica de una entidad pública o privada.
 
           .tarjeta.clr-paleYellow.p-4(titulo="Objetivos")
             p Los CSIRTS pueden ser internos o externos cubriendo áreas para el manejo de incidentes en los centros de coordinación y análisis, los equipos de vendedores y proveedores. Estas acciones le permiten ser el punto central para el informe de problemas, cuyos objetivos se basan en:
@@ -243,7 +240,7 @@
                 i.fas.fa-check
                 p.mb-0 Mantener informada de la gestión y respuesta a todos los miembros involucrados e interesados.
               
-          .tarjeta.clr-paleYellow.p-4(titulo="Servicios de un CSIRT")
+          .tarjeta.clr-paleYellow.p-4(titulo="Servicios de <br>un CSIRT")
 
             ul.lista-ul--color
               li 
@@ -281,18 +278,10 @@
           .tarjeta.clr-paleYellow.p-4(titulo="En conclusión")
             p El CSIRT es el encargado de coordinar las actividades de respuesta a los implicados de un incidente, por lo general, deben incluir a la víctima del incidente, terceros que se encuentren involucrados, y cualquier otra parte que necesite asistencia cuando se realice el análisis, por ejemplo, administradores de redes, soporte IT, proveedores de servicios de internet, otros CSIRT, etc.
 
-    .row.mt-5
-      p Es momento de continuar con los equipos que apoyan el proceso de validación de incidentes, los CERT.
-
-    separador
-
-    #t_1_2
-
-    .titulo-segundo.color-acento-contenido.mt-5(data-aos="zoom-in-left")
-      h2 1.2 CERT
+    h3 Equipos CERT
 
     .row
-      p Los activos de información en una entidad deben ser preservados, y para ello se requiere de protección, ya sea con buenas prácticas de administración o mediante equipos que impidan el acceso no autorizado de usuarios a los repositorios de estos activos.
+      p Los activos de información en una entidad, deben ser preservados, protegidos, sea con buenas prácticas de administración o mediante equipos que impidan el acceso no autorizado de usuarios, a los repositorios de estos activos.
 
     TabsC.color-primario
       .py-3.py-md-4(titulo="Definición")
@@ -322,37 +311,26 @@
 
       .py-3.py-md-4(titulo="ColCERT")
         .row.justify-content-around.align-items-center
-          .col-md-4.mb-4.mb-md-0
-            .titulo-sexto.color-acento-contenido
-              h5 Figura 1
-              p(data-aos="fade-down").mb-0 #[i Modelo de coordinación]
+          .col-md-6.mb-4.mb-md-0
             figure
               img(src='@/assets/curso/temas/tema1/img14.svg', alt='Texto que describa la imagen')
-          .col-md-8
+          .col-md-6
             p En Colombia, el Ministerio de Defensa estructuró el ColCERT, que es el equipo coordinador a nivel nacional en aspectos de seguridad informática, el cual será el encargado de apoyar y colaborar con las demás instituciones a nivel nacional, como por ejemplo, el Centro Cibernético Policial - CCP y el Comando Conjunto Cibernético - CCOC. (Consejo Nacional de Política Económica y Social (CONPES), República de Colombia, y Departamento de Planeación (DNP), 2011).
 
       .py-3.py-md-4(titulo="Misión del ColCERT")
         .row.justify-content-around.align-items-center
-          .col-md-4.mb-4.mb-md-0
-            .titulo-sexto.color-acento-contenido
-              h5 Figura 2
-              p(data-aos="fade-down").mb-0 #[i Modelo Relacional del ColCERT]
+          .col-md-6.mb-4.mb-md-0
             figure
               img(src='@/assets/curso/temas/tema1/img15.svg', alt='Texto que describa la imagen')
-          .col-md-8
+          .col-md-6
             p El ColCERT es un grupo adscrito al Ministerio de Defensa Nacional, integrado por funcionarios civiles, personal militar y comisiones de otras entidades que debe cumplir con las directrices de la comisión intersectorial de diversas entidades; su misión es coordinar las acciones que se requieran para proteger la infraestructura TI del Estado colombiano, frente a incidencias y ataques que se puedan presentar y comprometan la seguridad nacional.
 
             p El ColCERT inició operaciones en el segundo semestre del año 2011, siguiendo un modelo relacional diseñado por el Ministerio de Defensa. (Consejo Nacional de Política Económica y Social (CONPES), República de Colombia y Departamento de Planeación (DNP), 2011).
 
     .row.mt-5
-      p El monitoreo continuo de los equipos que hacen parte de la red de seguridad de la información sigue unos protocolos o procedimientos descritos en la normatividad ISO 27000; estos deben ser establecidos o personalizados de acuerdo al tipo y necesidad de la empresa, a través del centro de gestión de incidentes, el cual se describe a continuación:
+      p El monitoreo continuo de los equipos que hacen parte de la red de seguridad de la información, sigue unos protocolos o procedimientos descritos en la normatividad ISO 27000; estos deben ser establecidos o personalizados, de acuerdo con el tipo y necesidad de la empresa, a través del centro de gestión de incidentes.
 
-    separador
-
-    #t_1_3
-
-    .titulo-segundo.color-acento-contenido.mt-5(data-aos="zoom-in-left")
-      h2 1.3 Centro de gestión de incidentes
+    h3 Centro de gestión de incidentes
 
     .row.justify-content-around.align-items-center.mt-5.background-full
       .col-lg-4
@@ -362,9 +340,9 @@
         p(data-aos="fade-down") El monitoreo trae consigo la operación de herramientas que protegen y controlan los activos, así como las herramientas de monitoreo y gestión de los incidentes que se puedan presentar.
 
     .row.mt-5
-      p Un centro de gestión de incidentes cumple con varias etapas que conforman un proceso de atención de incidentes en SI, estas se encuentran organizadas de la siguiente manera:
+      p Un centro de gestión de incidentes cumple con varias etapas que conforman un proceso de atención de incidentes en SI. Tales etapas se encuentran organizadas de la siguiente manera:
 
-    .row.justify-content-around.align-items-center.mt-5
+    .row.justify-content-around.align-items-center.my-5
       .col-lg-10
         AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
           .row.color-acord(titulo="<b style='color: white'>Preparación</b>")
@@ -396,17 +374,20 @@
             .col-md-12.text-white
               p La recolección de evidencia y su posterior manejo debe realizarse con personal altamente entrenado y capacitado para llevar a cabo dichas acciones. Las evidencias son fundamentales para iniciar procesos judiciales contra los atacantes, pero deben ser recolectadas cumpliendo estándares y recomendaciones legales, de acuerdo al procedimiento estipulado por la entidad.
 
+    p La siguiente imagen le muestra un flujograma de gestión de incidentes en SI; analícelo con atención y registre, en su libreta de apuntes personal, los aspectos que encuentra más destacados e importantes:
+              
+
     .row.justify-content-around.align-items-center.mt-5
       .col-8
         .titulo-sexto.color-acento-contenido
-          h5 Figura 3
+          h5 Figura 1
           p(data-aos="fade-down").mb-0 #[i Flujograma de gestión de incidentes de SI]
         figure
           img(src='@/assets/curso/temas/tema1/img17.svg', alt='Texto que describa la imagen')
-          figcaption.mt-3.text-center Fuente:  Instituto para la Economía Social -IPES (2017) Gestión de incidentes de seguridad de la información.  p. 7. 
+          figcaption.mt-3.text-center Nota. Tomado de Instituto para la Economía Social -IPES (2017). 
           
 
-    .row.justify-content-around.align-items-center.mt-5
+    .row.justify-content-around.align-items-center.my-5
       .col-lg-9
         .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
@@ -415,35 +396,27 @@
           .bloque-texto-g__texto.p-4
             p.mb-0 En Colombia existe el Comando de Atención Inmediata Virtual - CAI Virtual, un grupo coordinado por el ColCERT que previene, gestiona e investiga los incidentes que se presentan en SI; este recibe los reportes y la información de delitos cibernéticos, por lo tanto, debe clasificar y perfilar las conductas encontradas. Con ello busca la protección y respuesta de la ciudadanía ante delitos cibernéticos mediante acciones para prevenir, atender, investigar y apoyar en la judicialización de estos en el territorio nacional.
 
-    .row.justify-content-around.align-items-center.mt-3
-      .col-lg-9
-        .cajonAmarillo.bgr-tarjeta-tema1.p-4.mt-5
-          p(data-aos="fade-down") Para finalizar con el primer tema de estudio sobre la validación de incidentes, es necesario reconocer las etapas del ciclo de gestión de incidentes, las cuales son las siguientes:
 
-    separador
 
-    #t_1_4
-
-    .titulo-segundo.color-acento-contenido.mt-5(data-aos="zoom-in-left")
-      h2 1.4 Ciclo de gestión de incidentes
+    h3 Ciclo de gestión de incidentes
 
     .row
-      p Con la implementación del CSIRT se deben considerar e implementar algunos factores que se rigen por los principios del ciclo de vida PHVA -Planificar-Hacer-Verificar-Actuar-, garantizando la mejora continua.
+      p Con la implementación del CSIRT se deben considerar e implementar algunos factores que se rigen por los principios del ciclo de vida PHVA -Planificar-Hacer-Verificar-Actuar-, lo cual favorece, ostensiblemente, el mejoramiento continuo.
 
     .row.justify-content-around.align-items-center.mt-5
       .col-8
         .titulo-sexto.color-acento-contenido
-          h5 Figura 4
+          h5 Figura 2
           p(data-aos="fade-down").mb-0 #[i Ilustración del ciclo de Deming (Ciclo PHVA)]
         figure
           img(src='@/assets/curso/temas/tema1/img19.svg', alt='Texto que describa la imagen')
-          figcaption.mt-3.text-center Nota: Mejoras continuas a la calidad se logran iterando en el ciclo y consolidando el progreso logrado a través de la estandarización (Johannes Vietze).
+          figcaption.mt-3.text-center Nota. Tomado de Heide Der Von, M. (2020)
 
 
     .row.mt-5
-      p El equipo encargado del ciclo de la gestión de incidentes debe integrar como mínimo a un directivo de la organización, de tal manera que la aplicabilidad de las acciones no se desvíe del objeto misional de la entidad, y a su vez, que pueda suplir de forma rápida las necesidades que llegue a tener.
+      p El equipo encargado del ciclo de la gestión de incidentes debe integrar, como mínimo, a un directivo de la organización, de tal manera que la aplicabilidad de las acciones no se desvíe del objeto misional de la entidad y, a su vez, pueda suplir de forma rápida, las necesidades que llegue a tener.
 
-      p A continuación, se describen cada una de las etapas del ciclo de gestión de incidentes. 
+      p A continuación, se describen cada una de las etapas del ciclo de gestión de incidentes: 
 
     .row.justify-content-around.align-items-center.mt-5
       .col-6
@@ -474,7 +447,7 @@
       .col-10
         .tabla-a.color-acento-contenido 
           table
-            caption Nota: Elaboración propia del experto con la información tomada de Heide der Van, M. (2020) Estableciendo un CSIRT. 
+            
             thead
               tr
                 th Nivel de Madurez
@@ -497,7 +470,7 @@
                 td Igual a 4, pero con monitoreo en tiempo real de incidentes y amenazas. Se definen y comparten por interno, se proporcionan terceras instrucciones para nuevas amenazas y formas de prevenir incidentes con la finalidad de generar conciencia.
 
 
-      p.mt-5 Ya se conocen los incidentes en la seguridad digital, es hora de ver qué son los eventos y cómo se deben monitorear.
+
 
 </template>
 
