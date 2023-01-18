@@ -40,38 +40,38 @@
             p El monitoreo continuo se debe realizar a todos los elementos de la infraestructura que intervienen en el proceso de resguardo de la información, así como a los que se van integrando por motivo de crecimiento o automatización de gestión de los registros. De este modo, se podrán controlar todos los dispositivos y garantizar protección total a los sistemas de información, tomando mejores decisiones y manteniendo el cumplimiento normativo.
 
     .row.mt-5
-      p Un sistema de monitoreo confiable debe cumplir, como mínimo, las siguientes características:
+      p.mb-5 Un sistema de monitoreo confiable debe cumplir, como mínimo, las siguientes características:
 
       h3 Características de un sistema de monitoreo
 
-    .row.justify-content-around.align-items-center.mt-5
-      .col-6
+    .row.justify-content-around.align-items-center.my-5
+      .col-8
         ImagenInfografica.color-primario
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/temas/tema2/img4.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/img4-.svg', alt='Texto que describa la imagen')
 
-          .tarjeta.color-acento-contenido.p-3(x="75.3%" y="5.7%" numero="1")
+          .tarjeta.color-acento-contenido.p-3(x="70.8%" y="5.7%" numero="1")
             p #[b Relación entre dispositivos:]
             p proporcionar una correlación entre los dispositivos de la red y el equipo de reportes para que todos cuenten con la misma información al detalle y se pueda examinar minuciosamente.
 
-          .tarjeta.color-acento-contenido.p-3(x="94.5%" y="50%" numero="2")
+          .tarjeta.color-acento-contenido.p-3(x="82.9%" y="49%" numero="2")
             p #[b Traducción de datos:]
             p traducir datos de difícil entendimiento en tiempo real, documentando la lista de acciones a realizar por la organización.
 
-          .tarjeta.color-acento-contenido.p-3(x="75.3%" y="94.5%" numero="3")
+          .tarjeta.color-acento-contenido.p-3(x="70.8%" y="92.5%" numero="3")
             p #[b Priorización de actividades:]
             p ayudar a los equipos CSIRT y CERT en la priorización de actividades que previenen las alertas de falsos positivos, para ser más efectivos en la implementación de acciones en los eventos que realmente sean críticos.
 
-          .tarjeta.color-acento-contenido.p-3(x="27%" y="94.5%" numero="4")
+          .tarjeta.color-acento-contenido.p-3(x="41%" y="92.5%" numero="4")
             p #[b Localización de amenazas:]
             p localizar las fuentes de las posibles amenazas y seguir el patrón de ataque, con el propósito de reforzar los puntos débiles e ir evolucionando hacia el desarrollo de la gestión de las amenazas más críticas.
 
-          .tarjeta.color-acento-contenido.p-3(x="4.5%" y="50%" numero="5")
+          .tarjeta.color-acento-contenido.p-3(x="27.3%" y="49%" numero="5")
             p #[b Apoyarse en los CSIRT y el CERT:]
             p permitir que el CSIRT y el CERT realicen hipótesis ajustadas sobre los incidentes pasados que suministren el proceso para la prevención de eventos futuros.
 
-          .tarjeta.color-acento-contenido.p-3(x="27%" y="5.7%" numero="6")
+          .tarjeta.color-acento-contenido.p-3(x="41%" y="5.7%" numero="6")
             p #[b Cumplimiento de la normatividad:]
             p garantizar la solución integral y que permita evolucionar la plataforma de seguridad de la entidad, sin necesidad de cambiarla para futuros eventos.
 
