@@ -222,29 +222,10 @@ export default {
         'Ley 1273 de 2009. Por medio de la cual se modifica el Código Penal, se crea un nuevo bien jurídico tutelado – denominado ‘de la protección de la información y de los datos’ - y se preservan integralmente los sistemas que utilicen las tecnologías de la información y las comunicaciones, entre otras disposiciones. Enero 5 de 2009. DO N° 47223.',
       link: '',
     },
-    {
-      referencia:
-        'Martins, R.J, Días Knob, L. A. Germano Da Silva, E. Araujo Wickboldt, J., Schaeffer-Filho, A., & Zambenedetti Granville, L. (2018) Specialized CSIRT for Incident Response Management in Smart Grids. <em>Journal of Network and Systems Management</em> 27 (1) p. 269-285.',
-      link: '',
-    },
+
     {
       referencia:
         'Ministerio de las Tecnologías de la Información y la Comunicaciones –MINTIC (2016). Guía N° 21. Guía para la Gestión y Clasificación de Incidentes de Seguridad de la Información.',
-      link: '',
-    },
-    {
-      referencia:
-        'Núñez Jarrosay, L. (2021) Estrategia de ciberseguridad para la sociedad digital. <em>Telemática</em>. 20 (1). P. 47-53',
-      link: '',
-    },
-    {
-      referencia:
-        'Ramírez Luna H. E. & Mejía Miranda, J. (2015) Propuesta de infraestructura técnica de seguridad para un equipo de respuesta ante incidentes de seguridad (CSIRT). <em>ReCIBE. Revista electrónica de Computación, Informática, Biomédica y Electrónica</em> p. VI',
-      link: '',
-    },
-    {
-      referencia:
-        'Wendell, O. (2016) <em>CCENT/CCNA ICND1 100 - 105: official cert guide</em>. Cisco Systems.',
       link: '',
     },
   ],
