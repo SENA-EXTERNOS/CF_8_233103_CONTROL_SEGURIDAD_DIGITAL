@@ -301,7 +301,7 @@
           .col-md-8
             p Según #[i Carnegie Mellon University] (2022), el CERT tiene un enfoque particular y un nicho que opera como un socio con el gobierno, la industria, el cumplimiento de la ley y el mundo académico para mejorar la seguridad y la capacidad de recuperación de los sistemas y redes informáticos. Este estudia problemas que tienen implicaciones generalizadas de ciberseguridad y desarrolla métodos y herramientas avanzados.
 
-      .py-3.py-md-4(titulo="Los CERT y la cibersegruidad")
+      .py-3.py-md-4(titulo="Los CERT y la ciberseguridad")
         .row
           .col-md-4.mb-4.mb-md-0
             figure
@@ -401,7 +401,7 @@
     h3 Ciclo de gestión de incidentes
 
     .row
-      p Con la implementación del CSIRT se deben considerar e implementar algunos factores que se rigen por los principios del ciclo de vida PHVA -Planificar-Hacer-Verificar-Actuar-, lo cual favorece, ostensiblemente, el mejoramiento continuo.
+      p Con la implementación del CSIRT se deben considerar e implementar algunos factores que se rigen por los principios del ciclo de vida PHVA -Planificar-Hacer-Verificar-Actuar, lo cual favorece, ostensiblemente, el mejoramiento continuo.
 
     .row.justify-content-around.align-items-center.mt-5
       .col-8

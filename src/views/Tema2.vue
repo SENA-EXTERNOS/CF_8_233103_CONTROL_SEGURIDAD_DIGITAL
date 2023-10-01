@@ -53,27 +53,27 @@
 
           .tarjeta.color-acento-contenido.p-3(x="70.8%" y="5.7%" numero="1")
             p #[b Relación entre dispositivos:]
-            p proporcionar una correlación entre los dispositivos de la red y el equipo de reportes para que todos cuenten con la misma información al detalle y se pueda examinar minuciosamente.
+            p Proporcionar una correlación entre los dispositivos de la red y el equipo de reportes para que todos cuenten con la misma información al detalle y se pueda examinar minuciosamente.
 
           .tarjeta.color-acento-contenido.p-3(x="82.9%" y="49%" numero="2")
             p #[b Traducción de datos:]
-            p traducir datos de difícil entendimiento en tiempo real, documentando la lista de acciones a realizar por la organización.
+            p Traducir datos de difícil entendimiento en tiempo real, documentando la lista de acciones a realizar por la organización.
 
           .tarjeta.color-acento-contenido.p-3(x="70.8%" y="92.5%" numero="3")
             p #[b Priorización de actividades:]
-            p ayudar a los equipos CSIRT y CERT en la priorización de actividades que previenen las alertas de falsos positivos, para ser más efectivos en la implementación de acciones en los eventos que realmente sean críticos.
+            p Ayudar a los equipos CSIRT y CERT en la priorización de actividades que previenen las alertas de falsos positivos, para ser más efectivos en la implementación de acciones en los eventos que realmente sean críticos.
 
           .tarjeta.color-acento-contenido.p-3(x="41%" y="92.5%" numero="4")
             p #[b Localización de amenazas:]
-            p localizar las fuentes de las posibles amenazas y seguir el patrón de ataque, con el propósito de reforzar los puntos débiles e ir evolucionando hacia el desarrollo de la gestión de las amenazas más críticas.
+            p Localizar las fuentes de las posibles amenazas y seguir el patrón de ataque, con el propósito de reforzar los puntos débiles e ir evolucionando hacia el desarrollo de la gestión de las amenazas más críticas.
 
           .tarjeta.color-acento-contenido.p-3(x="27.3%" y="49%" numero="5")
             p #[b Apoyarse en los CSIRT y el CERT:]
-            p permitir que el CSIRT y el CERT realicen hipótesis ajustadas sobre los incidentes pasados que suministren el proceso para la prevención de eventos futuros.
+            p Permitir que el CSIRT y el CERT realicen hipótesis ajustadas sobre los incidentes pasados que suministren el proceso para la prevención de eventos futuros.
 
           .tarjeta.color-acento-contenido.p-3(x="41%" y="5.7%" numero="6")
             p #[b Cumplimiento de la normatividad:]
-            p garantizar la solución integral y que permita evolucionar la plataforma de seguridad de la entidad, sin necesidad de cambiarla para futuros eventos.
+            p Garantizar la solución integral y que permita evolucionar la plataforma de seguridad de la entidad, sin necesidad de cambiarla para futuros eventos.
 
     .row.justify-content-around.align-items-center.mt-5
       .col-lg-10
@@ -100,7 +100,7 @@
 
 
       .col-lg-10
-        p A continuación, encontrará algunas de las soluciones de seguridad destacadas para las principales amenazas actuales ((DELL, s.f.):
+        p A continuación, encontrará algunas de las soluciones de seguridad destacadas para las principales amenazas actuales (DELL, s.f.):
 
         SlyderF(columnas="col-lg-6 col-xl-4")
 
@@ -169,7 +169,7 @@
 
     .row.justify-content-center.mt-5
       .col-10
-        p Profundice en la herramienta Ransomware Defender para Dell EMC PowerScale; remítase al manual adjunto como Anexo 1.
+        p Profundice en la herramienta #[em Ransomware] Defender para Dell EMC #[em PowerScale]; remítase al manual adjunto como Anexo 1.
 
         .tarjeta.color-secundario.p-3.mb-5.mt-3
           .row.justify-content-around.align-items-center
@@ -179,7 +179,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h3.mb-1.text-white Anexo 1
-                  p.text-small.text-white Manual Ransomware Defender para Dell EMC PowerScale.
+                  p.text-small.text-white Manual #[em Ransomware] Defender para Dell EMC #[em PowerScale].
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")
                     span Descargar
@@ -195,7 +195,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h3.mb-1.text-white Anexo 2
-                  p.text-small.text-white Manual VMware NSX.
+                  p.text-small.text-white Manual #[i VMware] NSX.
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_2.pdf')" target="_blank")
                     span Descargar

@@ -142,7 +142,7 @@ export default {
     {
       termino: 'CSIRT',
       significado:
-        'equipo que tiene la función de prestar los servicios que permiten prevenir y dar respuesta a incidentes de seguridad de la información. Se encargan , generalmente, de cubrir un área específica en una entidad pública o privada.',
+        'equipo que tiene la función de prestar los servicios que permiten prevenir y dar respuesta a incidentes de seguridad de la información. Se encargan, generalmente, de cubrir un área específica en una entidad pública o privada.',
     },
     {
       termino: 'Detección y análisis de gestión de incidentes',
@@ -182,7 +182,7 @@ export default {
     {
       termino: 'Servicios reactivos',
       significado:
-        'son los que se inician cuando el incidente ya ocurrió, es decir, un equipo de oficina comprometido o infectado, intrusos en registros de información, malware disperso por toda la red, <em>software</em> vulnerado o eventos identificados sin mecanismo previos de protección.',
+        'son los que se inician cuando el incidente ya ocurrió, es decir, un equipo de oficina comprometido o infectado, intrusos en registros de información, <em>malware</em> disperso por toda la red, <em>software</em> vulnerado o eventos identificados sin mecanismo previos de protección.',
     },
   ],
   referencias: [
@@ -204,7 +204,8 @@ export default {
     },
     {
       referencia: 'Heide der Van, M. (2020) <em>Estableciendo un CSIRT.</em>',
-      link: '',
+      link:
+        'https://csirt.cedia.edu.ec/docs/Establishing-a-CSIRT-v1.3-es_EC.pdf',
     },
     {
       referencia:
@@ -215,18 +216,21 @@ export default {
     {
       referencia:
         'Instituto para la Economía Social -IPES (2017) Gestión de incidentes de seguridad de la información.',
-      link: '',
+      link:
+        'https://www.mintic.gov.co/gestionti/615/articles-5482_Modelo_de_Seguridad_Privacidad.pdf',
     },
     {
       referencia:
         'Ley 1273 de 2009. Por medio de la cual se modifica el Código Penal, se crea un nuevo bien jurídico tutelado – denominado ‘de la protección de la información y de los datos’ - y se preservan integralmente los sistemas que utilicen las tecnologías de la información y las comunicaciones, entre otras disposiciones. Enero 5 de 2009. DO N° 47223.',
-      link: '',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=34492',
     },
 
     {
       referencia:
         'Ministerio de las Tecnologías de la Información y la Comunicaciones –MINTIC (2016). Guía N° 21. Guía para la Gestión y Clasificación de Incidentes de Seguridad de la Información.',
-      link: '',
+      link:
+        'https://www.mintic.gov.co/gestionti/615/articles-5482_G21_Gestion_Incidentes.pdf',
     },
   ],
   creditos: {
