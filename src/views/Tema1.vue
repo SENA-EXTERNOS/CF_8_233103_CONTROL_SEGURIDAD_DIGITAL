@@ -311,7 +311,7 @@
 
       .py-3.py-md-4(titulo="ColCERT")
         .row.justify-content-around.align-items-center
-          .col-md-6.mb-4.mb-md-0
+          .col-md-7.mb-4.mb-md-0
             figure
               img(src='@/assets/curso/temas/tema1/img14.svg', alt='Texto que describa la imagen')
           .col-md-5
