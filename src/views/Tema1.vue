@@ -314,7 +314,7 @@
           .col-md-6.mb-4.mb-md-0
             figure
               img(src='@/assets/curso/temas/tema1/img14.svg', alt='Texto que describa la imagen')
-          .col-md-6
+          .col-md-5
             p En Colombia, el Ministerio de Defensa estructuró el ColCERT, que es el equipo coordinador a nivel nacional en aspectos de seguridad informática, el cual será el encargado de apoyar y colaborar con las demás instituciones a nivel nacional, como por ejemplo, el Centro Cibernético Policial - CCP y el Comando Conjunto Cibernético - CCOC. (Consejo Nacional de Política Económica y Social (CONPES), República de Colombia, y Departamento de Planeación (DNP), 2011).
 
       .py-3.py-md-4(titulo="Misión del ColCERT")
